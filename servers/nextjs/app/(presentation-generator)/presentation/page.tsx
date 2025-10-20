@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import PresentationPage from "./components/PresentationPage";
+import PresentationPage from "./components/MioPPTPage";
 import { Button } from "@/components/ui/button";
 import { useRouter, useSearchParams } from "next/navigation";
 const page = () => {
