@@ -20,11 +20,11 @@ from models.sql.presentation_layout_code import PresentationLayoutCodeModel
 from models.sql.template import TemplateModel
 from models.sql.webhook_subscription import WebhookSubscription
 from models.sql.ppt_create_sessions import PptCreateSessionModel
-from models.sql.teaching_objective import TeachingObjectiveModel
-from models.sql.teaching_outlines import TeachingOutlineModel
-from models.sql.teaching_desion import TeachingDesignModel
-from models.sql.knowledge_recall import KnowledgeRecallModel
-from models.sql.websearch_result import WebSearchResultModel
+# from models.sql.teaching_objective import TeachingObjectiveModel
+# from models.sql.teaching_outlines import TeachingOutlineModel
+# from models.sql.teaching_desion import TeachingDesignModel
+# from models.sql.knowledge_recall import KnowledgeRecallModel
+# from models.sql.websearch_result import WebSearchResultModel
 from utils.db_utils import get_database_url_and_connect_args
 
 # 该文件管理数据库的连接和会话
