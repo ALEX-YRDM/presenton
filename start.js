@@ -165,7 +165,11 @@ const startServers = async () => {
   const exitCode = await Promise.race([
     new Promise((resolve) => fastApiProcess.on("exit", resolve)),
     new Promise((resolve) => nextjsProcess.on("exit", resolve)),
+<<<<<<< HEAD
     // new Promise((resolve) => ollamaProcess.on("exit", resolve)),
+=======
+    //new Promise((resolve) => ollamaProcess.on("exit", resolve)),
+>>>>>>> origin
   ]);
 
   console.log(`One of the processes exited. Exit code: ${exitCode}`);
